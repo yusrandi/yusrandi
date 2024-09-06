@@ -35,7 +35,7 @@ export default function AboutMe(props) {
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Driven by an insatiable curiosity, I continued to broaden my horizons by diving into the depths of React Native and Next.js frameworks. These endeavors not only expanded my technical repertoire but also fueled my passion for pushing the boundaries of what's possible in the digital realm.
+                Driven by an insatiable curiosity, I continued to broaden my horizons by diving into the depths of React Native and Next.js frameworks. These endeavors not only expanded my technical repertoire but also fueled my passion for pushing the boundaries of what&apos;s possible in the digital realm.
               </span>
             </div>
             {/* <div className="font-Header tracking-wide">
