@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function GithubIcon(props) {
+export default function GithubIcon(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

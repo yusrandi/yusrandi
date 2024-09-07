@@ -105,7 +105,7 @@ const CompaniesBar = (props: { setDescriptionJob: any; }) => {
       >
         {/* // ? animated left bar */}
         <motion.div
-          animate={{ y: barPosition }}
+          animate={{ y: barPosition as number }}
           // ref={barRef}
           className={`absolute w-10 h-0.5 md:w-0.5 md:h-12 rounded bg-AAsecondary `}
         ></motion.div>
@@ -170,7 +170,7 @@ const CompaniesBar = (props: { setDescriptionJob: any; }) => {
 
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
-          <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
+          <motion.div animate={{ x: barAbovePosition as number }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
         </div>
       </div>
     </div>
